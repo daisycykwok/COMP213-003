@@ -1,31 +1,73 @@
-/*Global styles for the document (use the body element selector) with 
-background color white (#FFFFFF) and text color dark gray (#666666).*/
 body{
-    background-color: #FFFFFF;
-    color: 666666;
+    background-color:#FFFFFF;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-/*Style rules for the header element selector that configure 
-background color (#000033) and text color (#FFFFFF)*/
 header{
-    background-color: #000033;
-    color: #FFFFFF;
+    background-color:#000033;
+    color:#FFFFFF;
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    line-height: 400%;
+    text-indent: 1em;
 }
 
-/*nav element selector that configure sky blue background color (#90C7E3).*/
 nav{
-    background-color: #90C7E3;
+    background-color:#90C7E3;
+    font-weight:bold;
 }
 
-h1{
-    margin-bottom: 0px;
+h1, h2, h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
-/*h2 element selector that configure dark blue text color (#000033).*/
-h2{
+
+h3 {
     color: #000033;
 }
 
-/*class named resort that configure medium dark blue text color (#5C7FA3).*/
+h2{
+    color:#000033;
+}
+
+h1 {
+    margin-bottom:0px;
+}
+
+ul {
+    list-style-image: url(images/marker.gif);
+}
+
+footer {
+    font-size: 75%;
+}
+
 .resort{
-    color: #5C7FA3;
+    color:#5C7FA3;
+    font-weight: 700;
+}
+
+#contact {
+    font-size:90%;
+}
+
+table, th, td {
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+    
+}
+
+td {
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+    text-align: center;
+}
+
+.text {
+   text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #a0e2fc;
 }
