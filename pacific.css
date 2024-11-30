@@ -33,6 +33,10 @@ nav > ul {
     padding-left: 0px;
 }
 
+nav a {
+    transition: color 3s ease-out;
+}
+
 nav a:link {
     color: #5C7FA3;
 }
@@ -113,6 +117,10 @@ td {
     text-align: center;
 }
 
+video {
+     float: right;
+     padding-left: 20px; }
+
 .text {
    text-align: left;
 }
@@ -160,6 +168,25 @@ tr:nth-of-type(odd) {
 
 #mobile{
     display: none;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+#thumbnails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#bigimage{
+    width:100%;
+    height: auto;
+    padding: 0.5em;
 }
 
 @media only screen and (max-width: 1024px){
